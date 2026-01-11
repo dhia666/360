@@ -5,6 +5,7 @@ __pycache__/
 *.pyd
 .Python
 *.sqlite3
+360-video -.mp4
 
 # Virtual environments
 venv/
