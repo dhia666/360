@@ -1,0 +1,87 @@
+/* frontend/style.css */
+
+/* Tunisian-inspired design */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #005f73, #0a9396);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fullscreen 360 Tour */
+#map {
+    width: 100vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #005f73;
+}
+
+/* Centered popup for login */
+#login-popup {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+}
+
+/* Inputs: Futuristic Neon Style */
+input[type="text"], input[type="password"], textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #94d2bd;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white;
+    opacity: 0.8;
+}
+
+input:focus, textarea:focus {
+    border-color: #e9d8a6;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Submit Buttons: Futuristic Glow Effect */
+button {
+    background: #94d2bd;
+    color: #005f73;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #e9d8a6;
+    color: #005f73;
+    box-shadow: 0px 0px 10px #e9d8a6;
+}
+
+/* Feedback Section */
+#feedback {
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}

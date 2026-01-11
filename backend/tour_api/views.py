@@ -1,0 +1,5 @@
+# backend/tour_api/views.py
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"message": "Welcome to the Ennejma Ezzahra Virtual Tour API"})
